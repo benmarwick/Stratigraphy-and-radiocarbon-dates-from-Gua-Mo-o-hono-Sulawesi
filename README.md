@@ -1,14 +1,5 @@
 PiperetalGMHBone
 ===
-
-[![Build Status](https://travis-ci.org/trinker/SOdemoing.png?branch=master)](https://travis-ci.org/trinker/SOdemoing)
-
-
-
-
-
-
-
 ## Supplementary materials for a report on the stratigraphy and radiocarbon dates from Gua Mo'o hono, Sulawesi, Indonesia
 
 ### Compendium DOI: 
@@ -50,7 +41,7 @@ The simplest way to access the code and data is to download the package in R usi
 
 ```r
 install.packages("devtools")
-devtools::install_github("bmarwick/PiperetalGMHBone")
+devtools::install_github("benmarwick/PiperetalGMHBone")
 library(PiperetalGMHBone)
 ```
 
@@ -72,18 +63,42 @@ Data: CC0 http://creativecommons.org/publicdomain/zero/1.0/ attribution requeste
 
 ### Dependencies:
 
-I used [RStudio](http://www.rstudio.com/products/rstudio/) (version 0.98.953) on Windows 7 and Ubuntu 14.04 and these packages:
+I used [RStudio](http://www.rstudio.com/products/rstudio/) (version 0.98.953) on Windows 7 and Ubuntu 14.04. In /R/libraries.R you can see a list of packages used in this repository. Here is the sessionInfo()
 
-Identified using sessionInfo():
+R version 3.1.1 (2014-07-10)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
 
- 
+locale:
+[1] LC_COLLATE=English_United States.1252 
+[2] LC_CTYPE=English_United States.1252   
+[3] LC_MONETARY=English_United States.1252
+[4] LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.1252    
 
-All of these are included in this repository using [packrat](http://rstudio.github.io/packrat/), a dependency management system that takes a snapshot of the libraries needed for this project and saves it in the project directory so that you can recreate those exact same libraries on another machine. To use this system, open the Rproj file in RStudio, then open the Rmd file and knit that. 
+attached base packages:
+[1] grid      stats     graphics  grDevices utils     datasets 
+[7] methods   base     
+
+other attached packages:
+ [1] rmarkdown_0.2.49     MASS_7.3-33          devtools_1.5        
+ [4] whisker_0.3-2        memoise_0.2.1        httr_0.3            
+ [7] gridExtra_0.9.1      RColorBrewer_1.0-5   scales_0.2.4        
+[10] reshape2_1.4.0.99    ggplot2_1.0.0        dplyr_0.2           
+[13] plyr_1.8.1           PiperetalGMHBone_0.1 knitr_1.6           
+
+loaded via a namespace (and not attached):
+ [1] assertthat_0.1   colorspace_1.2-4 digest_0.6.4    
+ [4] evaluate_0.5.5   formatR_0.10     gtable_0.1.2    
+ [7] htmltools_0.2.4  labeling_0.2     munsell_0.4.2   
+[10] packrat_0.4.0    parallel_3.1.1   proto_0.3-10    
+[13] Rcpp_0.11.2      RCurl_1.95-4.1   stringr_0.6.2   
+[16] tools_3.1.1      
+
+All of these are included in this repository using [packrat](http://rstudio.github.io/packrat/), a dependency management system that takes a snapshot of the libraries needed for this project and saves it in the project directory so that you can recreate those exact same libraries on another machine. To use this system, open the Rproj file in RStudio, then open the Rmd file in /vignettes and knit that. 
 
 Other system dependencies identified using `dependencies::needs()` (https://github.com/ropensci/dependencies): 
 
 - pandoc (>= 1.12.3) http://johnmacfarlane.net/pandoc
-- jags (>= 3.0.0) http://mcmc-jags.sourceforge.net/
 - libcurl (version 7.14.0 or higher) http://curl.haxx.se
 
 Note that these are external to R and are not bundled with this repository. You'll need to ensure they're installed yourself before executing the Rmarkdown file. Pandoc is installed when RStudio is installed.
@@ -96,4 +111,6 @@ Seattle, WA 98195-3100 USA
 
 t. (+1) 206.552.9450   e. bmarwick@uw.edu
 f. (+1) 206.543.3285   w. http://faculty.washington.edu/bmarwick/ 
+
+[![Build Status](https://travis-ci.org/benmarwick/PiperetalGMHBone.png?branch=master)](https://travis-ci.org/benmarwick/PiperetalGMHBone)
 
