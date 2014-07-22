@@ -1,5 +1,7 @@
 ## Supplementary materials for a report on the stratigraphy and radiocarbon dates from Gua Mo'o hono, Sulawesi, Indonesia
 
+[![Build Status](https://travis-ci.org/benmarwick/PiperetalGMHBone.png?branch=master)](https://travis-ci.org/benmarwick/PiperetalGMHBone) [what's this?](http://en.wikipedia.org/wiki/Continuous_integration)
+
 ### Compendium DOI: 
  
 http://dx.doi.org/......
@@ -12,16 +14,33 @@ Ben Marwick (benmarwick@gmail.com)
 
  Piper, Philip J., Sue O’Connor, David Bulbeck, Fredeliza Campos, Rachel Wood, Ken Aplin, Ben Marwick, Fakhrie. under review. Human foraging strategies in south-eastern Sulawesi, Indonesia during the mid to late Holocene, with special reference to the mid-5th millennium BP presence of dogs. _Quaternary International_
 
+## Installation
 
+The simplest way to access the code and data is to download the package in R using these lines:
+
+```r
+install.packages("devtools")
+devtools::install_github("benmarwick/Stratigraphy-and-radiocarbon-dates-from-Gua-Mo-o-hono-Sulawesi")
+library(PiperetalGMHBone)
+```
+
+Then you can inspect the plots and statistics in the pre-built Rmarkdown file with this line: 
+
+```r
+vignette("spit-depths-and-dated-samples")
+```
+Or if you want to build the vignette yourself, executing all the R code to generate the output and figures, download and unzip the [zip file](https://github.com/benmarwick/PiperetalGMHBone/zipball/master), navitage to the vignette directory and run `knitr::knit2html("spit-depths-and-dated-samples.Rmd")` and inspect the resulting html file. 
+
+Or if you just want to see the code and data without using R, download the [zip file](https://github.com/benmarwick/PiperetalGMHBone/zipball/master) You will find the pre-built vignette as a html file in the `/inst/docs` directory.  
+
+ 
 ### Contents:
 
-This repository contains a package for R that includes code and data used to analyse the spit depths and radiocarbon dates for the archaeological site Gua Mo'o hono, Sulawesi, Indonesia. Here's an overview of the key items in the package: 
+This repository contains a package for R that includes code and data used to analyse the spit depths and radiocarbon dates for the archaeological site Gua Mo'o hono, Sulawesi, Indonesia. Here's an overview of the key items in the repository: 
 
 In the /vignettes directory: 
 
 One Rmarkdown file that can be executed in R. This files contains sections of the narrative found in the published paper and R code used to analyse the data, compute statistics, and generate the data visualisations and tables. To execute these files, ensure all the files are together in a directory in the same structure as they are in this repository, then open R and run `knitr::knit2html("XXX")` where XXX is the name of the Rmd, including the .Rmd suffix and the quotation marks. There are many dependencies on non-core R packages and other software, see the dependencies section below for more details.
-
-One html file that contains the output produced by the code in the Rmarkdown file. These are what you should get if the Rmarkdown file executes properly.
 
 Three csv files that contain the raw data on radiocarbon dates and spit depths. 
 
@@ -33,24 +52,6 @@ In the /inst/docs directory:
 
 One html file that is the result of executing the Rmarkdown file. One R file that contains only the code from the Rmarkdown file, as well as the same Rmarkdown file as in /vignettes.
 
-## Installation
-
-The simplest way to access the code and data is to download the package in R using these lines:
-
-```r
-install.packages("devtools")
-devtools::install_github("benmarwick/Stratigraphy-and-radiocarbon-dates-from-Gua-Mo-o-hono-Sulawesi")
-library(PiperetalGMHBone)
-```
-
-Then you can execute the Rmarkdown file, running the code and generating the figures yourself, with this line:
-
-```r
-devtools::build_vignettes()
-```
-
-Or if you want to see the code and data without using R, download the [zip file](https://github.com/benmarwick/PiperetalGMHBone/zipball/master) You will find the pre-built vignette as a html file in the `/inst/docs` directory
-  
 ### Licenses:
 
 Manuscript:  CC-BY-4.0 http://creativecommons.org/licenses/by/4.0/
@@ -110,5 +111,5 @@ Seattle, WA 98195-3100 USA
 t. (+1) 206.552.9450   e. bmarwick@uw.edu
 f. (+1) 206.543.3285   w. http://faculty.washington.edu/bmarwick/ 
 
-[![Build Status](https://travis-ci.org/benmarwick/PiperetalGMHBone.png?branch=master)](https://travis-ci.org/benmarwick/PiperetalGMHBone)
+
 
