@@ -1,5 +1,3 @@
-PiperetalGMHBone
-===
 ## Supplementary materials for a report on the stratigraphy and radiocarbon dates from Gua Mo'o hono, Sulawesi, Indonesia
 
 ### Compendium DOI: 

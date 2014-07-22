@@ -1,9 +1,9 @@
 Package: PiperetalGMHBone
-Title: Analysis of excavation spits and radiocarbon dates
+Title: Analysis of excavation spits and radiocarbon dates from Gua Mo'o hono
 Version: 0.1
 Authors@R: "Ben Marwick <benmarwick@gmail.com> [aut, cre]"
 Description: Research Compendium to accompany publication on Gua Mo'o hono fauna
-    analysis
+    analysis. See the readme.md for more details.
 Depends:
     R (>= 3.1.1)
 License: MIT
