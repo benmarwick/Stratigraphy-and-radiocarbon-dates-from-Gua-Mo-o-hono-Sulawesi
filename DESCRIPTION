@@ -1,0 +1,16 @@
+Package: PiperetalGMHBone
+Title: Analysis of excavation spits and radiocarbon dates
+Version: 0.1
+Authors@R: "Ben Marwick <benmarwick@gmail.com> [aut, cre]"
+Description: Research Compendium to accompany publication on Gua Mo'o hono fauna
+    analysis
+Depends:
+    R (>= 3.1.1)
+License: MIT
+LazyData: true
+VignetteBuilder: knitr
+Suggests:
+    knitr,
+    ggplot2,
+    plyr,
+    dplyr
