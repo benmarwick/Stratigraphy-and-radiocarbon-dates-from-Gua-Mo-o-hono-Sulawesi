@@ -41,7 +41,7 @@ The simplest way to access the code and data is to download the package in R usi
 
 ```r
 install.packages("devtools")
-devtools::install_github("benmarwick/PiperetalGMHBone")
+devtools::install_github("benmarwick/Stratigraphy-and-radiocarbon-dates-from-Gua-Mo-o-hono-Sulawesi")
 library(PiperetalGMHBone)
 ```
 
