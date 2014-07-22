@@ -1,6 +1,6 @@
 ## Supplementary materials for a report on the stratigraphy and radiocarbon dates from Gua Mo'o hono, Sulawesi, Indonesia
 
-[![Build Status](https://travis-ci.org/benmarwick/PiperetalGMHBone.png?branch=master)](https://travis-ci.org/benmarwick/PiperetalGMHBone) [what's this?](http://en.wikipedia.org/wiki/Continuous_integration)
+[![Build Status](https://travis-ci.org/benmarwick/PiperetalGMHBone.png?branch=master)](https://travis-ci.org/benmarwick/PiperetalGMHBone) [what's this?](http://en.wikipedia.org/wiki/Continuous_integration) 
 
 ### Compendium DOI: 
  
@@ -29,7 +29,7 @@ Then you can inspect the plots and statistics in the pre-built Rmarkdown file wi
 ```r
 vignette("spit-depths-and-dated-samples")
 ```
-Or if you want to build the vignette yourself, executing all the R code to generate the output and figures, download and unzip the [zip file](https://github.com/benmarwick/PiperetalGMHBone/zipball/master), navitage to the vignette directory and run `knitr::knit2html("spit-depths-and-dated-samples.Rmd")` and inspect the resulting html file. 
+Or if you want to build the vignette yourself, executing all the R code to generate the output and figures, download and unzip the [zip file](https://github.com/benmarwick/PiperetalGMHBone/zipball/master),  set the R working directory to the vignette directory and run `knitr::knit2html("spit-depths-and-dated-samples.Rmd")` and inspect the resulting html file. 
 
 Or if you just want to see the code and data without using R, download the [zip file](https://github.com/benmarwick/PiperetalGMHBone/zipball/master) You will find the pre-built vignette as a html file in the `/inst/docs` directory.  
 
