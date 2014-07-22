@@ -1,10 +1,10 @@
 ## Supplementary materials for a report on the stratigraphy and radiocarbon dates from Gua Mo'o hono, Sulawesi, Indonesia
 
-[![Build Status](https://travis-ci.org/benmarwick/Stratigraphy-and-radiocarbon-dates-from-Gua-Mo-o-hono-Sulawesi.png?branch=master)](https://travis-ci.org/benmarwick/Stratigraphy-and-radiocarbon-dates-from-Gua-Mo-o-hono-Sulawesi) ([what's this?](http://en.wikipedia.org/wiki/Continuous_integration))
+[![Build Status](https://travis-ci.org/benmarwick/Stratigraphy-and-radiocarbon-dates-from-Gua-Mo-o-hono-Sulawesi.png?branch=master)](https://travis-ci.org/benmarwick/Stratigraphy-and-radiocarbon-dates-from-Gua-Mo-o-hono-Sulawesi) 
 
 ### Compendium DOI: 
  
-http://dx.doi.org/......
+http://dx.doi.org/10.6084/m9.figshare.1112747
 
 ### Author of this repository:
 
