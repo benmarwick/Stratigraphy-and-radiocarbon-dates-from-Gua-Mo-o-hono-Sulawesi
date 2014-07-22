@@ -3,7 +3,7 @@
 %\VignetteIndexEntry{Supplementary material for}
 -->
 
-# Spit depths and depths and spits of samples collected for radiocarbon dating at Gua Mo'o hono, Sulawesi
+# Spit depths and depths and spits of samples collected for radiocarbon dating at Gua Mo'o hono, Sulawesi 
 
 
 ```{r setup, echo = FALSE}
