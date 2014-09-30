@@ -106,7 +106,7 @@ Note that these are external to R and are not bundled with this repository. You'
 
 Ben Marwick, Assistant Professor, Department of Anthropology
 Denny Hall 117, Box 353100, University of Washington
-Seattle, WA 98195-3100 USA
+Seattle, WA 98195-3100 USA 
 
 t. (+1) 206.552.9450   e. bmarwick@uw.edu
 f. (+1) 206.543.3285   w. http://faculty.washington.edu/bmarwick/ 
